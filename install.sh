@@ -8,7 +8,7 @@ sudo dnf install xorg-x11-server-Xorg xorg-x11-xinit network-manager-applet\
  gvfs lightdm-gtk xfwm4 NetworkManager-wifi
  
 #install basic stuff
-sudo dnf install kitty polibar rofi neofetch micro firefox
+sudo dnf install kitty polybar rofi neofetch micro firefox
 
 sudo systemctl enable lightdm; # Enable login using graphical interface
 sudo systemctl set-default graphical.target; # Boot to graphical interface as default
